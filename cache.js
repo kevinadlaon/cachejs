@@ -1,5 +1,7 @@
 /**
- * Implements a key/val store. Ideally persistant across sessions. Uses lazy expiry, just like memcache does!
+ * CacheJS - implements a key/val store with expiry.
+ * Swappable storage modules (array, cookie, localstorage)
+ * Homepage: http://code.google.com/p/cachejs
  */
 var cache = function() {
 
